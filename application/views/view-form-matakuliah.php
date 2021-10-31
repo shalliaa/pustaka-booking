@@ -23,12 +23,18 @@ method="post">
  <td>
  <input type="text" name="kode" id="kode">
  </td>
+ <td>
+ <?=form_error('kode');?>
+ </td>    
  </tr>
  <tr>
  <th>Nama MTK</th>
  <td>:</td>
  <td>
  <input type="text" name="nama" id="nama">
+ </td>
+ <td>
+ <?=form_error('nama');?>
  </td>
  </tr>
  <tr>
